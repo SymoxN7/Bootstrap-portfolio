@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box; 
+  }
+  
+  :root {
+    --bg-grey: #343535;
+    --bg-turq: #0c5555;
+    --orange-underline: 5px solid #FF6200;
+    --text-turq: #159b9b;
+  }
+
+  main form {
+    display: block;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    display:flex;
+    justify-content: center;
+    width: 12vw;
+    text-align:center;
+  } 
+
+  .headers {
+    display: flex;
+    justify-content: center;
+  }
+  
+  p {
+    margin: 0;
+  }
+
+  .main-image {
+    width: 20%;
+  }
+
+  .customNav {
+    width: 100%;
+    background: url("../images/transparency.png");
+    background-color: transparent !important;
+    background-size: cover;
+    z-index: 10;
+  }
+
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  .navbar-brand img {
+    padding-right: 15px;
+    width: 65px;
+  }
+  .nav-item {
+    margin: 0px 15px;
+  }
+
+  .customNav a {
+    color: white !important;
+  }
+  .navCTA {
+    font-size: 15px;
+  }
+
+  .hero-banner {
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+  }
+
+  .hero-banner p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+    background: rgb(0,0,0,0.70);
+      width: 100%;
+      padding: 20px 40px;
+  }
+
+  #profile-pic {
+    width: 20%;
+  }
+
