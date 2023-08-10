@@ -1,33 +1,20 @@
-* {
-    box-sizing: border-box; 
-  }
-  
-  :root {
-    --bg-grey: #343535;
-    --bg-turq: #0c5555;
-    --orange-underline: 5px solid #FF6200;
-    --text-turq: #159b9b;
-  }
-
-  main form {
-    display: block;
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    display:flex;
-    justify-content: center;
-    width: 12vw;
-    text-align:center;
-  } 
 
   .headers {
     display: flex;
     justify-content: center;
+  }
+
+  /* Work Section */
+  .content {
+    padding: 50px;
+  }
+
+  .sectionHeading {
+    text-align: center;
+  }
+
+  .workCardsPad {
+    padding: 0px 30px 30px 30px
   }
   
   p {
@@ -38,6 +25,7 @@
     width: 20%;
   }
 
+  /* Nav Bar */
   .customNav {
     width: 100%;
     background: url("../images/transparency.png");
@@ -92,3 +80,24 @@
     width: 20%;
   }
 
+  .contactContain {
+    background: url(../images/02-hero-bg.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+  }
+
+  form {
+    width: 500px;
+    margin: 35px auto;
+    padding: 45px;
+    border: 1px solid #f2f2f2;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }

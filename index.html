@@ -43,39 +43,59 @@
     </div>
   </section>
 
-  <header class="border headers">
-    <h3 class="display-7 fw-bold text-center" id="work">Work</h3>
-  </header>
+ 
+  <header class="container-fluid content">
+    <h2 class="sectionHeading" id="work">Work</h2>
+    <div class="row workCardsPad">
 
   <div class="container-sm text-center">
     <div class="row">
-      <div class="col">
-        <div class="card" style="width: 18rem;">
+      <!-- Card 1 -->
+      <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+        <div class="card">
           <img src="./assets/images/horiseon.PNG" class="card-img-top" alt="horiseon">
           <div class="card-body">
-            <a href="https://symoxn7.github.io/html-refactoring/" class="card-text">HTML/CSS Refactoring</a>
+            <h5 class="card-title">HTML/CSS Refactoring</h5>
+            <p class="card-text">Example of changing HTML and CSS code to be more efficient without changing any funtionality</p>
+            <a href="https://symoxn7.github.io/html-refactoring/" class="btn btn-primary">Go to Project</a>
           </div>
         </div>
       </div>
-      <div class="col">
-        <div class="card" style="width: 18rem;">
-          <img src="./assets/images/portfolio-v1.PNG" class="card-img-top" alt="portfolio-v1">
+      <!-- Card 2 -->
+      <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+        <div class="card">
+          <img src="./assets/images/portfolio-v1.PNG" class="card-img-top" id="portfolio-v1" alt="portfolio-v1">
           <div class="card-body">
-            <a href="https://symoxn7.github.io/portfolio/" class="card-text">Portfolio v1</a>
+            <h5 class="card-title">Portfolio v1</h5>
+            <p class="card-text">My first ever portfolio page!</p>
+            <a href="https://symoxn7.github.io/portfolio/" class="btn btn-primary">Go to Project</a>
           </div>
         </div>
       </div>
-      <div class="col">
-        <div class="card" style="width: 18rem;">
-          <img src="./assets/images/coming-soon.jpg" class="card-img-top" alt="Coming Soon">
+      <!-- Card 3 -->
+      <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+        <div class="card">
+          <img src="./assets/images/coming-soon.jpg" class="card-img-top" alt="coming-soon">
           <div class="card-body">
-            <a href="#" class="card-text">Project 3 - Coming soon!</a>
+            <h5 class="card-title">Coming Soon</h5>
+            <p class="card-text">Next Project coming soon!</p>
+            <a href="#" class="btn btn-primary">It's not ready yet...</a>
           </div>
         </div>
       </div>
     </div>
   </div>
 
+  <footer class="contactContain text-center">
+    <form>
+      <h3>Contact me on the below</h3>
+      <div class="mb-3 text-center">
+        <p>Email on - email@email.com</p>
+        <a href="https://github.com/SymoxN7" class="btn btn-primary">GitHub</a>
+        <a href="https://www.linkedin.com/in/simonallsopp89/" class="btn btn-primary">LinkedIn</a>
+      </div>
+    </form>
+  </footer>
 
 </body>
 
