@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bootstrap-Portfolio</title>
+  <title>Simon Allsopp / Web Developer</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   <link rel="stylesheet" href="./assets/css/style.css">
@@ -12,7 +12,8 @@
 
 <body class="bg-info-subtle">
 
-  <nav class="navbar navbar-expand-lg bg-body-tertiary customNav">
+  <!-- NavBar -->
+  <section class="navbar navbar-expand-lg bg-body-tertiary customNav">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Simon Allsopp / Web Developer</a>
       <div id="navbarSupportedContent">
@@ -21,71 +22,84 @@
             <a class="nav-link active" aria-current="page" href="#about">About me</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#work">Work</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#contact-me">Contact Me</a>
+            <a class="nav-link active" href="#contact">Contact Me</a>
           </li>
         </ul>
       </div>
     </div>
-  </nav>
+  </section>
 
-  <section class="bg-info-subtle jumbotron jumbotron-fluid">
+  <!-- About -->
+  <section class="bg-info-subtle jumbotron jumbotron-fluid about">
     <div class="container hero-about text-center">
       <h3 class="display-7 fw-bold border border-danger border-5 rounded-5">About me</h3>
       <img src="./assets/images/book.jpg" style="width: 20%" alt="book" class="img-fluid rounded-circle">
-      <p class="bg-warning-subtle display-9 fw-bold text-center border border-black border-5 rounded-5">Hi, I'm Simon, I am a Web Developer based in Birmingham, UK. Below you will find my current projects and this will be updated as I make more. Focusing on Front End with skills in HTML, CSS, JavaScript, Bootstrap and UX Design principles.</p>
+      <p class="bg-warning-subtle display-9 fw-bold text-center border border-black border-5 rounded-5">Hi, I'm Simon, I
+        am a Web Developer based in Birmingham, UK. Below you will find my current projects and this will be updated as
+        I make more. Focusing on Front End with skills in HTML, CSS, JavaScript, Bootstrap and UX Design principles.</p>
     </div>
   </section>
 
-  <Section class="bg-info-subtle container-fluid content text-center border">
-    <h3 class="sectionHeading display-7 fw-bold text-center border border-danger border-5 rounded-5" id="skills">Skills</h3>
-    <img src="./assets/images/skills.png" alt="skills" style="width: 40%">
+  <!-- Skills -->
+  <Section class="bg-info-subtle container-fluid content text-center border skills">
+    <h3 class="display-7 fw-bold text-center border border-danger border-5 rounded-5" id="skills">Skills</h3>
+    <img src="./assets/images/skills.png" alt="skills" style="width: 60%">
   </Section>
 
- 
-  <section class="bg-info-subtle container-fluid content">
-    <h3 class="sectionHeading display-7 fw-bold text-center border border-danger border-5 rounded-5" id="work">Work</h3>
-  </section>
-
-  <div class="bg-info-subtle container-sm text-center">
-    <div class="row">
-      <!-- Card 1 -->
-      <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
-        <div class="card">
-          <img src="./assets/images/horiseon.PNG" class="card-img-top" alt="horiseon">
-          <div class="card-body">
-            <h5 class="card-title">HTML/CSS Refactoring</h5>
-            <p class="card-text">Example of changing HTML and CSS code to be more efficient without changing any funtionality</p>
-            <a href="https://symoxn7.github.io/html-refactoring/" class="btn btn-primary">Go to Project</a>
+  <!-- Work -->
+  <section class="bg-info-subtle container-fluid work">
+    <h3 class="display-7 fw-bold text-center border border-danger border-5 rounded-5" id="work">Work</h3>
+    <div class="bg-info-subtle container-sm text-center projectCards">
+      <div class="row">
+        <!-- Card 1 -->
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="card">
+            <img src="./assets/images/horiseon.PNG" class="card-img-top" alt="horiseon">
+            <div class="card-body">
+              <h5 class="card-title">HTML/CSS Refactoring</h5>
+              <p class="card-text">Example of changing HTML and CSS code to be more efficient without changing any
+                funtionality</p>
+              <a href="https://symoxn7.github.io/html-refactoring/" class="btn btn-primary">Go to Project</a>
+            </div>
           </div>
         </div>
-      </div>
-      <!-- Card 2 -->
-      <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
-        <div class="card">
-          <img src="./assets/images/portfolio-v1.PNG" class="card-img-top" id="portfolio-v1" alt="portfolio-v1">
-          <div class="card-body">
-            <h5 class="card-title">Portfolio v1</h5>
-            <p class="card-text">My first ever portfolio page!</p>
-            <a href="https://symoxn7.github.io/portfolio/" class="btn btn-primary">Go to Project</a>
+        <!-- Card 2 -->
+        <div class="col-lg-4 col-md-4 col-sm-12 card2">
+          <div class="card">
+            <img src="./assets/images/portfolio-v1.PNG" class="card-img-top" id="portfolio-v1" alt="portfolio-v1">
+            <div class="card-body">
+              <h5 class="card-title">Portfolio v1</h5>
+              <p class="card-text">My first ever portfolio page!</p>
+              <a href="https://symoxn7.github.io/portfolio/" class="btn btn-primary">Go to Project</a>
+            </div>
           </div>
         </div>
-      </div>
-      <!-- Card 3 -->
-      <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
-        <div class="card">
-          <img src="./assets/images/coming-soon.jpg" class="card-img-top" alt="coming-soon">
-          <div class="card-body">
-            <h5 class="card-title">Coming Soon</h5>
-            <p class="card-text">Next Project coming soon!</p>
-            <a href="#" class="btn btn-primary">It's not ready yet...</a>
+        <!-- Card 3 -->
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="card">
+            <img src="./assets/images/coming-soon.jpg" class="card-img-top" alt="coming-soon">
+            <div class="card-body">
+              <h5 class="card-title">Coming Soon</h5>
+              <p class="card-text">Next Project coming soon!</p>
+              <a href="#" class="btn btn-primary">It's not ready yet...</a>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </section>
+
+  <!-- Contact Footer -->
+
+  <section>
+    <h3 class="display-7 fw-bold text-center border border-danger border-5 rounded-5" id="contact">Contact me</h3>
+  </section>
 
   <footer class="contactContain text-center">
     <form>
