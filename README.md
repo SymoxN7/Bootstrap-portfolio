@@ -12,7 +12,7 @@ This project is my Portfolio website re-made but mainly using bootstrap elements
 
 ## Installation
 
-Visit URL: https://symoxn7.github.io/bootstrap-portfolio/
+Visit URL: https://symoxn7.github.io/Bootstrap-portfolio/
 
 ## Usage 
 
